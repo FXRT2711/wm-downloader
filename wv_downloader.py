@@ -128,7 +128,7 @@ if select_distro == ("Kali") or ("kali"):
     else:
         print ("something went wrong \n")
         print ("the proggram will restart ")
-        os.system (" /bin/python /home/fert2711/Documents/m.p.o.v/wv_downloader.py")
+        os.system (" /bin/python wv_downloader.py")
         exit()
 
 elif select_distro == ("Ubuntu") or ("ubuntu"):
@@ -229,13 +229,13 @@ elif select_distro == ("Ubuntu") or ("ubuntu"):
     else:
         print ("something went wrong \n")
         print ("the proggram will restart ")
-        os.system (" /bin/python /home/fert2711/Documents/m.p.o.v/wv_downloader.py")
+        os.system (" /bin/python wv_downloader.py")
         exit()
 
 
 else:
     print ("something went wrong \n")
     print ("the proggram will restart ")
-    os.system (" /bin/python /home/fert2711/Documents/m.p.o.v/wv_downloader.py")
+    os.system (" /bin/python wv_downloader.py")
     exit()
 
